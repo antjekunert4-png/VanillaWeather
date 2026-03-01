@@ -2,6 +2,23 @@ body {
   background-color: #f9f7fe;
   font-family: "Open Sans", sans-serif;
 }
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+.search-button {
+  background-color: #885df1;
+  margin-left: 5px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
 
 .weather-app {
   background: white;
