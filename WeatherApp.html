@@ -4,35 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Weather App</title>
 </head>
 
 <body>
-    <header>
-        <form>
-            <input type="search" placeholder="Enter a city.." required />
-            <input type="submit" value="Search" />
-        </form>
-    </header>
-    <main>
-        <div>
-            <h1>Amsterdam</h1>
+    <div class="weather-app">
+        <header>
+            <form>
+                <input type="search" placeholder="Enter a city.." required />
+                <input type="submit" value="Search" />
+            </form>
+        </header>
+        <main>
+            <div>
+                <h1>Amsterdam</h1>
+                <p>
+                    Tuesday 14:40, scattered clouds
+                    <br />
+                    humidity: 66%, Wind: 3.13km/h
+                </p>
+            </div>
+            <div>☀️ 24°C</div>
+        </main>
+        <footer>
             <p>
-                Tuesday 14:40, scattered clouds
-                <br />
-                humidity: 66%, Wind: 3.13km/h
+                This project was coded by
+                <a href="https://github.com/antjekunert4-png" target="_blank">Antje Kunert</a> and is open-sourced
+                <a href="https://github.com/antjekunert4-png/VanillaWeather" target="_blank"> on GitHub</a> and
+                <a href="https://weather-app-antje.netlify.app/" target="_blank">hosted on Netlify</a>
             </p>
-        </div>
-        <div>☀️ 24°C</div>
-    </main>
-    <footer>
-        <p>
-            This project was coded by
-            <a href="https://github.com/antjekunert4-png" target="_blank">Antje Kunert</a> and is open-sourced
-            <a href="https://github.com/antjekunert4-png/VanillaWeather" target="_blank"> on GitHub</a> and
-            <a href="https://weather-app-antje.netlify.app/" target="_blank">hosted on Netlify</a>
-        </p>
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>
